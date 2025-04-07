@@ -139,9 +139,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
         }
         return 0;
     }
-    else if (hWnd == comboBox) {
-        return DefWindowProc(hWnd, message, wParam, lParam);
-    }
     return DefWindowProc(hWnd, message, wParam, lParam);
 }
 
